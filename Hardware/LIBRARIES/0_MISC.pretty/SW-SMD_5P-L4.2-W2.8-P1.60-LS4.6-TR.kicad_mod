@@ -1,0 +1,228 @@
+(footprint "SW-SMD_5P-L4.2-W2.8-P1.60-LS4.6-TR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.11 0)
+		(layer "F.SilkS")
+		(uuid "70f68fb6-1935-4b3f-befe-05627f442da2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW-SMD_5P-L4.2-W2.8-P1.60-LS4.6-TR"
+		(at 0 5.11 0)
+		(layer "F.Fab")
+		(uuid "d742b922-12d8-4bad-8e22-2a46558d614b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f0e2bdc-450b-4d92-8ef5-3c0b296ad13d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b876da02-edd0-4884-890a-ebced52f2497")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 0.31)
+		(end -2.2 0.38)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4664dc8f-93f2-4470-b245-91b98c487df4")
+	)
+	(fp_line
+		(start -2.2 0.38)
+		(end -2.2 0.24)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ff30250-f1b3-43a1-be2c-58832070066e")
+	)
+	(fp_line
+		(start -1.49 -1.19)
+		(end -1.08 -1.19)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb94e4ec-bdbd-4b61-996a-ead0f0d9bd9f")
+	)
+	(fp_line
+		(start 1.08 -1.19)
+		(end 1.49 -1.19)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecc8d05c-100d-4fdb-9986-b59d50fc7ba8")
+	)
+	(fp_line
+		(start 1.49 1.81)
+		(end -1.49 1.81)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0c916f2-466e-4793-b14a-9a974383607e")
+	)
+	(fp_line
+		(start 2.2 0.38)
+		(end 2.2 0.24)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32f75c35-45e1-4d8a-ad20-991a458899d6")
+	)
+	(fp_circle
+		(center 2.25 -1.34)
+		(end 2.41 -1.34)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6ad4d2ec-661b-42ed-8420-92c30f088923")
+	)
+	(fp_line
+		(start -1.06 -0.49)
+		(end -1.06 -0.49)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9faf5df3-c142-49c4-b57f-987c07da623b")
+	)
+	(fp_line
+		(start -1.06 -0.49)
+		(end 1.05 -0.49)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acf191de-d3e3-4eb2-b86a-2970f8a1a3b1")
+	)
+	(fp_line
+		(start 1.05 -0.49)
+		(end 1.05 1.12)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2dadfa35-7678-4063-936a-47c658340a51")
+	)
+	(fp_line
+		(start 1.05 1.12)
+		(end -1.06 1.12)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e4e0d1a-0778-4ac0-8a06-1b88549f185b")
+	)
+	(fp_circle
+		(center 2.3 -1.09)
+		(end 2.33 -1.09)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "366d5e59-8a02-4531-89fb-da58597b24e3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "35d8f730-b3d6-4f96-b030-8f630668fe47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.05 -0.49)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "74fe392f-a730-4671-abac-0f2bfec7fa42")
+	)
+	(pad "2" smd rect
+		(at 2.05 1.11)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "713552b3-abdc-40bd-a922-61700e0c44b0")
+	)
+	(pad "3" smd rect
+		(at -2.05 1.11)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "570b2d3a-793f-44c5-8bce-f45c5e5e60c2")
+	)
+	(pad "4" smd rect
+		(at -2.05 -0.49)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "adbd4b4c-49e9-4ad6-9cce-b06730790635")
+	)
+	(pad "5" smd rect
+		(at 0 -1.11)
+		(size 1.7 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "681963a7-8c15-4850-9819-7b97d485886a")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/nickl/OneDrive/Documents/KiCad/9.0/template/NickLarsonKiCADTemplate/LIBRARIES/0_MISC.3dshapes/SW-SMD_5P-L4.2-W2.8-P1.60-LS4.6-TR.wrl"
+		(offset
+			(xyz 0 -1.27 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,218 @@
+(footprint "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.68 0)
+		(layer "F.SilkS")
+		(uuid "18b4f5e7-7544-4af0-a0cd-1775c0681a84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(at 0 6.68 0)
+		(layer "F.Fab")
+		(uuid "1257c4a3-7040-4063-85a4-fa20f27fd6d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "432f7a40-f6fc-4d7f-961f-59c1f45d5467")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bd3037f-c525-499a-9ead-e76461d464b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -1.48)
+		(end 2.5 -1.48)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aea49979-320e-4d53-a56f-ae4272891fd9")
+	)
+	(fp_line
+		(start -2.5 -0.63)
+		(end -2.5 -1.48)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3e81489-b51c-4108-aec4-723a8264e7b9")
+	)
+	(fp_line
+		(start -2.5 0.63)
+		(end -2.5 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c897462d-ea88-420c-ae1c-6cc468a121db")
+	)
+	(fp_line
+		(start -2.5 1.5)
+		(end 2.5 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d206f24-ab60-43df-bf3d-01af517f4e40")
+	)
+	(fp_line
+		(start 2.5 1.5)
+		(end 2.5 -1.48)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38b0ef87-b28f-4968-a3b8-303c09bb88b4")
+	)
+	(fp_arc
+		(start -2.5 -0.63)
+		(mid -1.970474 -0.002632)
+		(end -2.494818 0.629073)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5973c0b-0111-4ed9-9d8e-228c232c567b")
+	)
+	(fp_circle
+		(center -1.91 1.02)
+		(end -1.76 1.02)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "69282819-4735-474f-a765-432b7db8e10d")
+	)
+	(fp_circle
+		(center -1.91 3.4)
+		(end -1.76 3.4)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "2633a6d5-631f-49a8-87f8-fe5fa82425cc")
+	)
+	(fp_circle
+		(center -2.45 3)
+		(end -2.42 3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d0fec527-a5a4-462c-8a49-a27f077647d0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "743ac1d6-6fa6-4008-a7a3-627d272d1cb9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.91 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e0117955-3851-4fb5-9c70-bca270875cf7")
+	)
+	(pad "2" smd oval
+		(at -0.63 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "940d22e5-68c4-4846-b7f7-773109838553")
+	)
+	(pad "3" smd oval
+		(at 0.63 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a55bc1c5-6138-45a9-ab85-aa50ef2130dd")
+	)
+	(pad "4" smd oval
+		(at 1.9 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3f900e3-5d37-4da0-961e-5d278424b053")
+	)
+	(pad "5" smd oval
+		(at 1.9 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "97ac6313-79ec-45d4-aca2-bb5ea051e145")
+	)
+	(pad "6" smd oval
+		(at 0.63 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4da4007f-2dad-433f-b6b1-3ec902363dc9")
+	)
+	(pad "7" smd oval
+		(at -0.63 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "61c664b2-f2ca-4663-9c6e-c78e9b9e2070")
+	)
+	(pad "8" smd oval
+		(at -1.91 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "12ffe211-1e0b-404e-a404-a65f87624017")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/nickl/OneDrive/Documents/KiCad/9.0/template/NickLarsonKiCADTemplate/LIBRARIES/0_SENSOR.3dshapes/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1.wrl"
+		(offset
+			(xyz 0 -0 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
